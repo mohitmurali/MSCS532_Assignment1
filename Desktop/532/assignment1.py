@@ -44,3 +44,23 @@ if __name__ == "__main__":
         sorted_arr = insertion_sort_descending(arr.copy())
         print("Sorted array in decreasing order:", sorted_arr)
         print()
+
+# Output
+# mohitgokul@Mohits-Yoga:/mnt/c/Users/mohit/Desktop/532$ python3 assignment1.py 
+# Original array: [5, 2, 4, 6, 1, 3]
+# Sorted array in decreasing order: [6, 5, 4, 3, 2, 1]
+
+# Original array: [1, 2, 3, 4, 5]
+# Sorted array in decreasing order: [5, 4, 3, 2, 1]
+
+# Original array: [5, 4, 3, 2, 1]
+# Sorted array in decreasing order: [5, 4, 3, 2, 1]
+
+# Original array: [1, 1, 1, 1]
+# Sorted array in decreasing order: [1, 1, 1, 1]   
+
+# Original array: []
+# Sorted array in decreasing order: []
+
+# Original array: [1]
+# Sorted array in decreasing order: [1]
