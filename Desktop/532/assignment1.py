@@ -24,3 +24,23 @@ def insertion_sort_descending(arr):
     
     # Return the sorted array
     return arr
+
+# Test the algorithm with various cases
+if __name__ == "__main__":
+    # Define test cases to verify the algorithm
+    test_cases = [
+        [5, 2, 4, 6, 1, 3],  # Random array
+        [1, 2, 3, 4, 5],     # Already sorted in increasing order
+        [5, 4, 3, 2, 1],     # Already sorted in decreasing order
+        [1, 1, 1, 1],        # Array with duplicates
+        [],                   # Empty array
+        [1]                   # Single-element array
+    ]
+    
+    # Iterate through each test case
+    for arr in test_cases:
+        print("Original array:", arr)
+        # Use a copy to preserve the original array
+        sorted_arr = insertion_sort_descending(arr.copy())
+        print("Sorted array in decreasing order:", sorted_arr)
+        print()
